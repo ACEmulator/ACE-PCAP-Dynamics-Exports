@@ -1,0 +1,27 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x3217;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73217001,  1154, 0x32170032, 167.6859, 35.74811, 38.44102, 0.4793316, 0, 0, -0.8776339, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x32170032 [167.685900 35.748110 38.441020] 0.479332 0.000000 0.000000 -0.877634 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x73217001, 0x73217002, '2019-02-10 00:00:00') /* Skeletal Champion */
+     , (0x73217001, 0x73217003, '2019-02-10 00:00:00') /* Skeletal Hero */
+     , (0x73217001, 0x73217004, '2019-02-10 00:00:00') /* Phantasm */
+     , (0x73217001, 0x73217005, '2019-02-10 00:00:00') /* Great Skeleton */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73217002, 36856, 0x32170032, 167.6859, 35.74811, 38.44102, 0.4793316, 0, 0, -0.8776339,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */
+/* @teleloc 0x32170032 [167.685900 35.748110 38.441020] 0.479332 0.000000 0.000000 -0.877634 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73217003, 36859, 0x3217002A, 140.6528, 38.50477, 12.41996, -0.795689, 0, 0, -0.6057054,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
+/* @teleloc 0x3217002A [140.652800 38.504770 12.419960] -0.795689 0.000000 0.000000 -0.605705 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73217004, 24325, 0x32170035, 145.0958, 104.1866, 46.32885, 0.5311103, 0, 0, -0.8473027,  True, '2019-02-10 00:00:00'); /* Phantasm */
+/* @teleloc 0x32170035 [145.095800 104.186600 46.328850] 0.531110 0.000000 0.000000 -0.847303 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73217005, 36858, 0x32170015, 55.56657, 98.46516, 17.52333, 0.822645, 0, 0, -0.5685554,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
+/* @teleloc 0x32170015 [55.566570 98.465160 17.523330] 0.822645 0.000000 0.000000 -0.568555 */

@@ -1,0 +1,12 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x3D42;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73D42001,  1154, 0x3D420027, 98.54414, 163.7758, 34.70805, -0.9210252, 0, 0, -0.3895031, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x3D420027 [98.544140 163.775800 34.708050] -0.921025 0.000000 0.000000 -0.389503 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x73D42001, 0x73D42002, '2019-02-10 00:00:00') /* Sata Sclavus Lord */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73D42002, 23487, 0x3D420027, 98.54414, 163.7758, 34.70805, -0.9210252, 0, 0, -0.3895031,  True, '2019-02-10 00:00:00'); /* Sata Sclavus Lord */
+/* @teleloc 0x3D420027 [98.544140 163.775800 34.708050] -0.921025 0.000000 0.000000 -0.389503 */

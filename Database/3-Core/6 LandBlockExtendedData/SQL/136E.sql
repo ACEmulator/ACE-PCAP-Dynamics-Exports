@@ -1,0 +1,22 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x136E;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7136E001,  1154, 0x136E0006, 3.381897, 132.9533, 60.92511, -0.7746503, 0, 0, -0.6323898, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x136E0006 [3.381897 132.953300 60.925110] -0.774650 0.000000 0.000000 -0.632390 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7136E001, 0x7136E002, '2019-02-10 00:00:00') /* Drudge Sage */
+     , (0x7136E001, 0x7136E003, '2019-02-10 00:00:00') /* Insidious Monouga */
+     , (0x7136E001, 0x7136E004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7136E002, 24283, 0x136E0006, 3.381897, 132.9533, 60.92511, -0.7746503, 0, 0, -0.6323898,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
+/* @teleloc 0x136E0006 [3.381897 132.953300 60.925110] -0.774650 0.000000 0.000000 -0.632390 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7136E003, 36842, 0x136E001F, 92.91383, 151.3334, 67.32883, -0.1634629, 0, 0, -0.9865495,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
+/* @teleloc 0x136E001F [92.913830 151.333400 67.328830] -0.163463 0.000000 0.000000 -0.986550 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7136E004, 36829, 0x136E0004, 4.615128, 90.0956, 63.51797, 0.5779921, 0, 0, -0.8160423,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x136E0004 [4.615128 90.095600 63.517970] 0.577992 0.000000 0.000000 -0.816042 */
