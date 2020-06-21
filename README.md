@@ -4,7 +4,8 @@
  * MySQL and MariaDB are used as the database engine.
  * Currently intended for content (re)creators and developers that wish to refer to data as seen in PCAPs in ACE compatible formatting.
  * **Not directly usable as a world database. Use ACE-World-16PY-Patches releases instead!**
-**The spawn maps for this repo contain both static and dynamic object instances as recorded by players. To properly utilize this data, content authors will certainly need to clean up duplicate and extraneous instance spawns before committing to ACE-World-16PY-Patches**
+
+**The spawn maps for this repo contain both static and dynamic object instances as recorded by players. To properly utilize this data, content authors will certainly need to clean up duplicate and extraneous instance spawns, in addition to adjusting linked generators to match expecting spawn times before committing to ACE-World-16PY-Patches**
 
 ***
 ## Recommended Tools
